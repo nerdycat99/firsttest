@@ -13,7 +13,6 @@ module Firsttest
     # -- all .rb files in that directory are automatically loaded.
 
     # Add the fonts path
-    config.assets.initialize_on_precompile = false
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     # Precompile additional assets
